@@ -192,7 +192,4 @@ data[:, 1] = qsl
 
 np.savetxt(f"data_qsl_{N}_tau_int_off", data)
 
-plt.plot(tau, qsl)
-plt.show()
-    
     
